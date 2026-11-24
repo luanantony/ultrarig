@@ -1,0 +1,11 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https://m-vave\\.com" },
+    { "pattern": "^https://ultrarig\\.app" },
+    { "pattern": "^mailto:" }
+  ],
+  "aliveStatusCodes": [200, 206],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "5s"
+}
